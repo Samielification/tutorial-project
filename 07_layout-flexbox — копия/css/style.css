@@ -1,0 +1,201 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: 'font', sans-serif;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* header */
+
+.header-up {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  margin-right: 40px;
+}
+
+.header-phone {
+  margin-right: auto;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-list {
+  margin-right: auto;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+.header-btn-wantatour {
+  margin-right: 80px;
+}
+
+.header-btn-backcall {
+  margin-right: 65px;
+}
+
+.header-container {
+  margin-bottom: 70px;
+}
+
+/* Спецпредложения */
+
+
+.specialoffers {
+  margin-bottom: 40px;
+}
+
+.specialoffers-items {
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 285px;
+  width: 573px;
+  /* outline: 1px solid coral; */
+  /* padding: 40px 108px 40px 45px; */
+}
+
+/* justify-content: space-between; */
+
+.specialoffers-items-right {
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 540px;
+  width: 573px;
+  /* outline: 1px solid coral; */
+  /* padding: 212px 229px 40px 45px; */
+}
+
+.specialoffers-items:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.specialoffers-items-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.specialoffers-items-priсe {
+  margin-bottom: 47px;
+}
+
+.aboutus {
+margin-bottom: 70px;
+}
+
+.aboutus-descr {
+  margin: 0;
+  width: 888px;
+}
+
+/* Услуги */
+
+.services {
+  margin-bottom: 70px;
+}
+
+.services-list{
+  flex-wrap: wrap;
+}
+
+.services-items {
+  width: 573px;
+  margin-bottom: 24px;
+  /* outline: 1px solid coral; */
+}
+
+.services-items:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.services-item-desc {
+  margin: 0;
+}
+
+/* Преимущества */
+
+.advantages{
+  margin-bottom: 70px;
+}
+
+.advantages-list{
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  width: 276px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+/* Размещение */
+
+.accommodation {
+  margin-bottom: 70px;
+}
+
+.accommodation-list {
+  flex-wrap: wrap;
+}
+
+.accommodation-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.accommodation-item {
+  width: 374px;
+  min-height: 440px;
+  margin-bottom: 24px;
+}
