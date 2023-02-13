@@ -9,7 +9,7 @@
  */
 
 .ac {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* border: 1px solid #eee; */
   /* background-color: #fff; */
   box-sizing: border-box;
@@ -23,7 +23,7 @@
   /* color: #111; */
   text-align: left;
   width: 100%;
-  padding: 10px 30px 10px 10px;
+  /* padding: 10px 30px 10px 10px; */
   display: block;
   cursor: pointer;
   background-color: transparent;
@@ -52,7 +52,7 @@
   transition-timing-function: ease;
 }
 .ac .ac-panel .ac-text {
-  font: 15px/24px "Arial", sans-serif;
+  /* font: 15px/24px "Arial", sans-serif; */
   /* color: #111; */
   padding: 10px;
   margin: 0;
@@ -66,3 +66,4 @@
 .ac.is-active > .ac-header .ac-trigger::after {
   content: "–";
 }
+

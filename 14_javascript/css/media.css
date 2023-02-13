@@ -38,7 +38,8 @@
     /* background-image: url(../img/hero-2.jpg); */
     padding-top: 15.6%;
     padding-left: 77px;
-    min-height: 668px;
+    /* min-height: 668px; */
+    height: 100%;
   }
 
   .hero__content {
@@ -165,9 +166,13 @@
     padding-bottom: 79px;
   }
 
-  .questions__header {
+
+  .questions__header-text {
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .questions__header {
     width: 84%;
   }
 
@@ -181,7 +186,7 @@
   }
 
   .footer__container {
-    padding: 50px 49px;
+    padding: 53px 49px;
   }
 
   .footer__logo {
@@ -212,7 +217,7 @@
   }
 
   .header__container {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-left: 3.9%;
     padding-right: 4.2%;
     padding-top: 4px;
@@ -231,7 +236,8 @@
     /* border: 1px solid currentColor;
     border-radius: 3px; */
     color: #000000;
-    margin-right: -10px;
+    /* margin-right: -10px; */
+    margin-right: 37%;
   }
 
   .burger__line {
@@ -242,6 +248,7 @@
     border-radius: inherit;
     background-color: currentColor;
     transform: translateX(-50%);
+    z-index: 1001;
   }
 
   .burger__line:nth-child(1) {
@@ -273,6 +280,7 @@
     transform: translateX(-120%);
     transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: fixed;
+    padding-top: 150px;
     /* z-index: 1; */
   }
 
@@ -318,6 +326,10 @@
     transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
+  .header__search-form {
+    right: 36px;
+  }
+
   .stop-scroll {
     overflow: hidden;
   }
@@ -330,9 +342,30 @@
     margin-right: 10px;
   }
 
+  .hero__container {
+    padding-top: 160px;
+    padding-bottom: 161px;
+    padding-left: 77px;
+    padding-right: 75px;
+}
+
   .hero__item {
+
+  }
+
+  .hero__img1 {
     padding-top: 17.3%;
     background-image: url(../img/hero-1_2.jpg);
+  }
+
+  .hero__img2 {
+    padding-top: 17.3%;
+    background-image: url(../img/hero-2_2.jpg);
+  }
+
+  .hero__img3 {
+    padding-top: 17.3%;
+    background-image: url(../img/hero-3_2.jpg);
   }
 
   .aboutus__primcard {
@@ -355,6 +388,8 @@
     background-image: url(../img/Rectangle\ 21_2.jpg);
   }
 
+
+
 }
 
 @media (max-width: 769px) {
@@ -369,13 +404,43 @@
     padding-right: 5.6%
   }
 
-  .hero__item {
-    padding-top: 24%;
+  .burger {
+    margin-right: 32.4%;
+  }
+
+  .header__search-form {
+    top: 7px;
+  }
+
+  .header__search-form--active {
+    max-width: 75%;
+  }
+
+  .hero__container {
+    /* padding-top: 161px;
+    padding-bottom: 160px;
+    padding-left: 41px;
+    padding-right: 10px; */
+    padding-top: 21%;
     padding-left: 40px;
     padding-right: 0;
     min-height: 662px;
+  }
+
+  .hero__item {
     border-radius: 24px;
+  }
+
+  .hero__img1 {
     background-image: url(../img/hero-1_3.jpg);
+  }
+
+  .hero__img2 {
+    background-image: url(../img/hero-2_3.jpg);
+  }
+
+  .hero__img3 {
+    background-image: url(../img/hero-3_3.jpg);
   }
 
   .hero__content {
@@ -436,7 +501,7 @@
   }
 
   .how__descrblock-title {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
   }
 
   .how__descrblock-desc {
@@ -491,8 +556,13 @@
   }
 
   .questions__header {
-    width: 86%;
+    width: 90%;
     margin: 0;
+  }
+
+  .questions__header-text {
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .questions__link {
@@ -543,6 +613,11 @@
 
   .hero {
     padding-bottom: 60px;
+  }
+
+  .hero__container {
+    min-height: 0;
+    padding-bottom: 100px;
   }
 
   .hero__item {
@@ -816,11 +891,76 @@
 }
 
 @media (max-width: 320px) {
+
+  .header {
+    border-radius: 0px 0px 16px 16px;
+    /* position: relative; */
+  }
+
+  .burger {
+    margin-right: 52px;
+  }
+
+  .header__nav {
+    padding: 15px;
+    padding-top: 78px;
+  }
+
+  .header__search-form {
+    right: 1px;
+    top: 6px;
+  }
+
+  .header__search-form--active {
+    /* position: absolute; */
+    width: 100%;
+    border-radius: 0px 0px 24px 24px;
+    z-index: 2001;
+  }
+
+  .header__search-input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hero__container {
+    padding-top: 18.6%;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-bottom: 11px;
+    text-align: center;
+  }
+
   .hero__item {
-    background-image: url(../img/hero-1_4.jpg);
     padding-top: 20.8%;
     padding-right: 12px;
     /* padding-bottom: 11px; */
+  }
+
+  .hero__img1 {
+    background-image: url(../img/hero-1_4.jpg);
+  }
+
+  .hero__img2 {
+    background-image: url(../img/hero-2_4.jpg);
+  }
+
+  .hero__img3 {
+    background-image: url(../img/hero-3_4.jpg);
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 11px;
+  }
+
+  .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
   }
 
   .aboutus__primcard {
@@ -844,5 +984,23 @@
   .how__descrblock {
     margin-top: 61%;
     /* margin-top: 176px; */
+  }
+
+  .questions__header-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .ac .ac-trigger {
+    width: 99%;
+  }
+
+  .in-aria {
+    margin-bottom: 27px;
+  }
+
+  .footer__application {
+    margin-bottom: 34px;
   }
 }

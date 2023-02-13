@@ -71,6 +71,13 @@ let search__wind = document.querySelector('.header__search-form');
 
 search__open.addEventListener('click',
   function () {
+    search__wind.classList.add('header__search-form--active')
+    search__closed.classList.add('header__closed-search--active')
+  }
+)
+
+search__closed.addEventListener('click',
+function () {
     search__wind.classList.toggle('header__search-form--active')
     search__closed.classList.toggle('header__closed-search--active')
   }
