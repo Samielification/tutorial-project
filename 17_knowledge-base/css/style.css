@@ -1,0 +1,276 @@
+
+body {
+  font-family: Open Sans;
+  color: #333333;
+  overflow: auto;
+}
+
+.container {
+  width: 2678px;
+  max-width: 2678px;
+  height: 640px;
+  background: #424242;
+  display: flex;
+  padding-top: 70px;
+  padding-left: 92px;
+}
+
+/* Шрифты */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ymaps-2-1-79-map-copyrights-promo {
+  display: none;
+}
+
+.ymaps-2-1-79-copyright__wrap {
+  display: none;
+}
+
+.ymaps-2-1-79-controls__control {
+  display: none;
+}
+
+.ymaps-2-1-79-controls__control_toolbar {
+  display: none;
+}
+
+
+.checkbox {
+  background-color: #fff;
+  padding: 21px 29px 29px 30px;
+  border-radius: 10px;
+  margin-right: 58px;
+}
+
+.map {
+  margin-right: 58px;
+}
+
+.checkbox h2 {
+  margin-bottom: 20px;
+  margin-left: -16px;
+}
+
+.category label {
+  margin-left: 9px;
+  /* height: 30px;
+  padding-bottom: 5px; */
+}
+
+.category:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* checkbox */
+
+.checkbox {
+  width: 176px;
+  height: 309px;
+}
+
+.customCheckbox {
+  opacity: 0;
+  display: none;
+}
+
+.customCheckbox + label {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  position: relative;
+}
+
+.customCheckbox + label:before {
+  content: '';
+  position: absolute;
+  left: -25px;
+  top: 3px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: none;
+  margin-right: 4px;
+}
+
+/* checked */
+.customCheckbox:checked + label:before {
+  content: '';
+  background: url('../img/customCheckbox.svg') no-repeat center;
+  border: 1px solid #CCB26E;
+}
+
+/* disabled */
+.customCheckbox:disabled + label:before {
+  content: '';
+  background: none;
+}
+
+
+.select-container {
+ min-width: 176px;
+ margin-right: 58px;
+}
+
+.choices__list--dropdown {
+  padding: 0;
+}
+
+.choices__list--dropdown .choices__item--selectable, .choices__list[aria-expanded] .choices__item--selectable {
+  padding-right: 0;
+}
+
+/* tooltip */
+
+.tooltip-block {
+  width: 375px;
+  height: 160px;
+  background-color: #fff;
+  padding: 20px 78px 20px 29px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  display: inline;
+}
+
+.tooltip {
+	border-bottom: 1px dotted #0077AA;
+	cursor: help;
+}
+
+.tooltip::after {
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 8px 8px 8px 0px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	margin-top: -24px;
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden; /* ...и скрыт. */
+
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+
+.tooltip:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
+
+.tooltip-svg {
+  fill: #BCBCBC;
+}
+
+.tooltip-svg:hover {
+  fill: #CCB26E;
+}
+
+.scroll-container {
+  margin-right: 58px;
+}
+
+.scroll {
+  width: 399px;
+  height: 310px;
+  background: #FFFFFF;
+  padding: 20px 30px 0 29px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.simplebar-scrollbar::before {
+  background-color: #CCB26E;
+}
+
+/* track.simplebar-vertical .simplebar-scrollbar::before {
+  background-color: #CCB26E;
+} */
+
+.form-container {
+  padding: 38px 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-right: 58px;
+  width: 440px;
+  height: 410px;
+  border-radius: 10px;
+}
+
+form {
+	max-width: 300px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.form-input {
+  width: 380px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #FF5C00;
+  border-radius: 10px;
+  margin-bottom: 31px;
+  padding-left: 30px;
+  color: #999999;
+}
+
+.form__btn {
+  background: #FF5C00;
+  border-radius: 10px;
+  padding: 18.5px 53px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form-label {
+  position: relative;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  margin: 0;
+}
+
+.just-validate-error-label {
+  width: 100%;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF5C00 !important;
+}
