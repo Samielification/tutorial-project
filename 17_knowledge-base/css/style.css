@@ -149,6 +149,14 @@ ul {
   padding-right: 0;
 }
 
+.choices__list--dropdown .choices__placeholder {
+  display: none;
+}
+
+/* #choices--select-item-choice-5 {
+  display: none;
+} */
+
 /* tooltip */
 
 .tooltip-block {
