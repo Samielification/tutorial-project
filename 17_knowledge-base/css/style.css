@@ -13,6 +13,7 @@ body {
   display: flex;
   padding-top: 70px;
   padding-left: 92px;
+  align-items: flex-start;
 }
 
 /* Шрифты */
@@ -161,13 +162,11 @@ ul {
 
 .tooltip-block {
   width: 375px;
-  height: 160px;
   background-color: #fff;
   padding: 20px 78px 20px 29px;
   font-weight: 400;
   font-size: 14px;
   line-height: 170%;
-  display: inline;
 }
 
 .tooltip {
@@ -219,11 +218,15 @@ ul {
 
 .simplebar-scrollbar::before {
   background-color: #CCB26E;
+  opacity: 1;
 }
 
 /* track.simplebar-vertical .simplebar-scrollbar::before {
   background-color: #CCB26E;
+  opacity: 1;
 } */
+
+
 
 .form-container {
   padding: 38px 30px;
