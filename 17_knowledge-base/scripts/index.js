@@ -35,10 +35,13 @@
     }
 
     const elementSelect = document.querySelector('.select');
-      const choicesSelect = new Choices(elementSelect, {
-        searchEnabled: false,
-        position: 'bottom',
-        itemSelectText: ''
+    const choicesSelect = new Choices(elementSelect, {
+      searchEnabled: false,
+      position: 'bottom',
+      itemSelectText: '',
+      classNames: {
+        containerInner: 'choices__inner-custom',
+      }
 });
 
 
@@ -78,3 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
       errorMessage: 'Вы не ввели телефон',
     }]);
 })
+
+
+

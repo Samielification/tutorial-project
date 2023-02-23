@@ -1,0 +1,282 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  padding: 0px 0px;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+/* Шрифты */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1440px;
+  /* margin: auto; */
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.btn {
+  /* position: relative; */
+  outline: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 24px 75.5px;
+  background: #3F2AFF;
+  border-radius: 20px;
+  color: #fff;
+  /* transition: background-color 0.3s ease-in-out; */
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #2E2B44;
+}
+
+.section-descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background: #3F2AFF;
+}
+
+.header__container {
+  height: 80px;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__nav {
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 57px;
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+/* hero */
+
+.hero {
+  position: relative;
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+  margin-bottom: 80px;
+}
+
+.hero-img {
+  background-image: url('../img/hero-img.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 632.86px;
+  height: 593px;
+  left: 642px;
+  top: 15px;
+}
+
+.hero__container {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  /* padding-left: 80px; */
+  /* padding-right: 75px; */
+  color: #FFFFFF;
+}
+
+.hero__content {
+  /* flex-direction: column; */
+}
+
+.hero__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  margin-bottom: 28px;
+}
+
+.hero__descr {
+  margin: 0;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 61px;
+}
+
+.hero__btn {
+}
+
+/* benefits */
+
+.benefits {
+  padding-bottom: 69px;
+}
+
+.benefits__up {
+  padding-left: 190px;
+  background-image: url('../img/benefits_1.svg');
+  background-repeat: no-repeat;
+  background-position: 15px 21px;
+  margin-bottom: 13px;
+}
+
+.benefits__title {
+  margin-bottom: 18px;
+}
+
+.benefits__down-descr {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  padding-left: 123px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.benefits__down-img1 {
+  background-image: url('../img/benefits__down-img1.svg');
+  background-position: 11px 9px;
+}
+
+.benefits__down-img2 {
+  background-image: url('../img/benefits__down-img2.svg');
+  background-position: 13px 9px;
+}
+
+.benefits__down-img3 {
+  background-image: url('../img/benefits__down-img3.svg');
+  background-position: 17px 9px;
+}
+
+/* teachers */
+
+.teachers {
+  background: #212133;
+  color: #FFFFFF;
+}
+
+.teachers__container {
+  padding-top: 76px;
+  padding-bottom: 80px;
+}
+
+.teachers__title {
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.teachers-card {
+  padding-top: 193px;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.teachers-card-img1 {
+  background-image: url('../img/teachers-card-img1.svg');
+}
+
+.teachers-card-img2 {
+  background-image: url('../img/teachers-card-img2.svg');
+}
+
+.teachers-card-img3 {
+  background-image: url('../img/teachers-card-img3.svg');
+}
+
+.teachers-card-img4 {
+  background-image: url('../img/teachers-card-img4.svg');
+}
+
+.teachers__card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
