@@ -4,9 +4,9 @@
   }
 
   .container {
-    max-width: 690px;
-    padding-left: 5px;
-    padding-right: 5px;
+    max-width: 714px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
   }
 
   .hero__container {
@@ -86,6 +86,10 @@
     min-height: 375px;
   }
 
+  .courses__card-level {
+    padding-bottom: 18px;
+  }
+
   .courses__btn {
     padding: 20.5px 56px;
   }
@@ -131,7 +135,7 @@
   }
 
   .container {
-    max-width: 510px;
+    max-width: 533px;
   }
 
   .header__container {
@@ -225,9 +229,12 @@
     font-size: 30px;
     line-height: 110%;
   }
-}
 
-@media (max-width: 575px) {
+  .benefits__up {
+    background-image: none;
+    padding-left: 0;
+  }
+
   .hero {
     margin-bottom: 50px;
   }
@@ -255,7 +262,7 @@
   }
 
   .container {
-    max-width: 290px;
+    max-width: 312px;
   }
 
   .header__container {
@@ -318,19 +325,22 @@
     /* left: 0; */
     right: 0;
     top: 0;
-    width: 50%;
+    width: 100%;
     min-width: 250px;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 433px;
     z-index: 1000;
-    padding: 50px;
+    /* padding: 50px; */
+    padding-top: 76px;
+    padding-left: 15px;
+    padding-bottom: 105px;
     box-shadow: 0 0 5px #888;
-    background-color: #3F2AFF;
+    background-color: #2F2C45;
     overflow-y: auto;
     visibility: hidden;
     transform: translateX(120%);
     transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: fixed;
-    padding-top: 150px;
   }
 
   .header__nav .nav__list {
@@ -339,11 +349,13 @@
 
   .header__nav .nav__item:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 56px;
   }
 
   .header__nav .nav__link {
+    font-weight: 400;
     font-size: 18px;
+    line-height: 21px;
   }
 
   .header__nav--active {
@@ -406,10 +418,6 @@
     margin-bottom: 2px;
   }
 
-  .benefits__up {
-    background-image: none;
-    padding-left: 0;
-  }
 
   .benefits__down-descr {
     padding-left: 125px;
