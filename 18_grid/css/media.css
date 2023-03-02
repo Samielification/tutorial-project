@@ -56,7 +56,7 @@
     margin-bottom: 21px;
   }
 
-  .teachers-card-img1 {
+  /* .teachers-card-img1 {
     background-image: url('../img/teachers-card-img1_2.svg');
   }
 
@@ -70,6 +70,24 @@
 
   .teachers-card-img4 {
     background-image: url('../img/teachers-card-img4_2.svg');
+  } */
+
+  .teachers-card-img {
+    margin-bottom: 31px;
+  }
+
+  .teachers-card-img1,
+  .teachers-card-img2,
+  .teachers-card-img3,
+  .teachers-card-img4 {
+    display: none;
+  }
+
+  .teachers-card-img1_2,
+  .teachers-card-img2_2,
+  .teachers-card-img3_2,
+  .teachers-card-img4_2 {
+    display: inherit;
   }
 
   /* courses */
@@ -112,7 +130,12 @@
 }
 
 @media (max-width: 706px) {
-  .teachers-card-img1 {
+
+  .nav__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  /* .teachers-card-img1 {
     background-image: url('../img/teachers-card-img1_3.svg');
   }
 
@@ -126,6 +149,20 @@
 
   .teachers-card-img4 {
     background-image: url('../img/teachers-card-img4_3.svg');
+  } */
+
+  .teachers-card-img1_2,
+  .teachers-card-img2_2,
+  .teachers-card-img3_2,
+  .teachers-card-img4_2 {
+    display: none;
+  }
+
+  .teachers-card-img1_3,
+  .teachers-card-img2_3,
+  .teachers-card-img3_3,
+  .teachers-card-img4_3 {
+    display: inherit;
   }
 }
 
@@ -151,6 +188,9 @@
   .header__nav {
   }
 
+  .nav__item:not(:last-child) {
+    margin-right: 57px;
+  }
 
 
   .hero__container {
@@ -180,7 +220,9 @@
     padding-bottom: 52px;
   }
 
-
+  .teachers-card-img {
+    margin-bottom: 32px;
+  }
 
   .courses__card-img1 {
     background-image: url('../img/courses__card-img1_3.jpg');
@@ -215,55 +257,10 @@
 }
 
 @media (max-width: 575px) {
-  .nav__item:not(:last-child) {
-    margin-right: 10px
-  }
 
-  .benefits__down-descr {
-    padding-left: 148px;
-    padding-top: 0;
-  }
-
-  .benefits__title {
-    margin-bottom: 2px;
-    font-size: 30px;
-    line-height: 110%;
-  }
-
-  .benefits__up {
-    background-image: none;
-    padding-left: 0;
-  }
-
-  .hero {
-    margin-bottom: 50px;
-  }
-
-  .hero__container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .hero__title {
-    font-size: 30px;
-    margin-bottom: 6px;
-  }
-
-  .hero__descr {
-    font-size: 16px;
-    line-height: 130%;
-    margin-bottom: 44px;
-  }
-}
-
-@media (max-width: 320px) {
-  body {
-    max-width: 320px;
-  }
-
-  .container {
-    max-width: 312px;
-  }
+  /* .nav__item:not(:last-child) {
+    margin-right: 40px;
+  } */
 
   .header__container {
     flex-direction: row;
@@ -399,6 +396,54 @@
   }
 
 
+  .benefits__down-descr {
+    padding-left: 148px;
+    padding-top: 0;
+  }
+
+  .benefits__title {
+    margin-bottom: 2px;
+    font-size: 30px;
+    line-height: 110%;
+  }
+
+  .benefits__up {
+    background-image: none;
+    padding-left: 0;
+  }
+
+  .hero {
+    margin-bottom: 50px;
+  }
+
+  .hero__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    max-width: 320px;
+  }
+
+  .container {
+    max-width: 312px;
+  }
+
+
+
   .btn {
     padding: 20.5px 53.5px;
     font-size: 16px;
@@ -431,7 +476,7 @@
     padding-bottom: 24px;
   }
 
-  .teachers-card-img1 {
+  /* .teachers-card-img1 {
     background-image: url('../img/teachers-card-img1_4.svg');
   }
 
@@ -445,6 +490,20 @@
 
   .teachers-card-img4 {
     background-image: url('../img/teachers-card-img4_4.svg');
+  } */
+
+  .teachers-card-img1_3,
+  .teachers-card-img2_3,
+  .teachers-card-img3_3,
+  .teachers-card-img4_3 {
+    display: none;
+  }
+
+  .teachers-card-img1_4,
+  .teachers-card-img2_4,
+  .teachers-card-img3_4,
+  .teachers-card-img4_4 {
+    display: inherit;
   }
 
   .teachers-card {
