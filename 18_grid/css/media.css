@@ -1,10 +1,10 @@
 @media (max-width: 768px) {
   body {
-    max-width: 768px;
+    /* max-width: 768px; */
   }
 
   .container {
-    max-width: 714px;
+    max-width: 720px;
     /* padding-left: 5px; */
     /* padding-right: 5px; */
   }
@@ -56,40 +56,6 @@
     margin-bottom: 21px;
   }
 
-  /* .teachers-card-img1 {
-    background-image: url('../img/teachers-card-img1_2.svg');
-  }
-
-  .teachers-card-img2 {
-    background-image: url('../img/teachers-card-img2_2.svg');
-  }
-
-  .teachers-card-img3 {
-    background-image: url('../img/teachers-card-img3_2.svg');
-  }
-
-  .teachers-card-img4 {
-    background-image: url('../img/teachers-card-img4_2.svg');
-  } */
-
-  .teachers-card-img {
-    margin-bottom: 31px;
-  }
-
-  .teachers-card-img1,
-  .teachers-card-img2,
-  .teachers-card-img3,
-  .teachers-card-img4 {
-    display: none;
-  }
-
-  .teachers-card-img1_2,
-  .teachers-card-img2_2,
-  .teachers-card-img3_2,
-  .teachers-card-img4_2 {
-    display: inherit;
-  }
-
   /* courses */
 
   .courses__container {
@@ -134,45 +100,15 @@
   .nav__item:not(:last-child) {
     margin-right: 25px;
   }
-
-  /* .teachers-card-img1 {
-    background-image: url('../img/teachers-card-img1_3.svg');
-  }
-
-  .teachers-card-img2 {
-    background-image: url('../img/teachers-card-img2_3.svg');
-  }
-
-  .teachers-card-img3 {
-    background-image: url('../img/teachers-card-img3_3.svg');
-  }
-
-  .teachers-card-img4 {
-    background-image: url('../img/teachers-card-img4_3.svg');
-  } */
-
-  .teachers-card-img1_2,
-  .teachers-card-img2_2,
-  .teachers-card-img3_2,
-  .teachers-card-img4_2 {
-    display: none;
-  }
-
-  .teachers-card-img1_3,
-  .teachers-card-img2_3,
-  .teachers-card-img3_3,
-  .teachers-card-img4_3 {
-    display: inherit;
-  }
 }
 
 @media (max-width: 576px) {
   body {
-    max-width: 576px;
+    /* max-width: 576px; */
   }
 
   .container {
-    max-width: 533px;
+    max-width: 540px;
   }
 
   .header__container {
@@ -221,7 +157,7 @@
   }
 
   .teachers-card-img {
-    margin-bottom: 32px;
+    margin-bottom: 27px;
   }
 
   .courses__card-img1 {
@@ -439,7 +375,7 @@
   }
 
   .container {
-    max-width: 312px;
+    max-width: 320px;
   }
 
 
@@ -473,37 +409,7 @@
 
   .teachers__container {
     padding-top: 45px;
-    padding-bottom: 24px;
-  }
-
-  /* .teachers-card-img1 {
-    background-image: url('../img/teachers-card-img1_4.svg');
-  }
-
-  .teachers-card-img2 {
-    background-image: url('../img/teachers-card-img2_4.svg');
-  }
-
-  .teachers-card-img3 {
-    background-image: url('../img/teachers-card-img3_4.svg');
-  }
-
-  .teachers-card-img4 {
-    background-image: url('../img/teachers-card-img4_4.svg');
-  } */
-
-  .teachers-card-img1_3,
-  .teachers-card-img2_3,
-  .teachers-card-img3_3,
-  .teachers-card-img4_3 {
-    display: none;
-  }
-
-  .teachers-card-img1_4,
-  .teachers-card-img2_4,
-  .teachers-card-img3_4,
-  .teachers-card-img4_4 {
-    display: inherit;
+    padding-bottom: 22px;
   }
 
   .teachers-card {
@@ -511,8 +417,12 @@
   }
 
   .courses__container {
-    padding-top: 44px;
+    padding-top: 43px;
     padding-bottom: 20px;
+  }
+
+  .courses__card {
+    margin-bottom: 30px;
   }
 
   .courses__card-img1 {
@@ -534,5 +444,12 @@
   .courses__btn {
     padding: 20.5px 56px;
   }
+
+  .courses__card-down {
+    padding: 30px;
+    padding-top: 34px;
+    padding-right: 22px;
+    min-height: 473px;
+}
 
 }

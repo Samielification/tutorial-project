@@ -46,6 +46,10 @@ p {
   list-style: none;
 }
 
+.container {
+  --bs-gutter-x: 30px;
+}
+
 .row {
   --bs-gutter-x: 30px;
 }
@@ -111,7 +115,7 @@ body {
 }
 
 .container {
-  max-width: 1133px;
+  max-width: 1140px;
   margin: 0 auto;
   /* padding: 0; */
   /* padding-left: 20px; */
@@ -277,43 +281,13 @@ body {
   border-radius: 20px 20px 0px 0px;
   margin-bottom: 10px;
   background-size: 90% auto;
+  flex-direction: column;
 }
-
-/* .teachers-card-img1 {
-  background-image: url('../img/teachers-card-img1.svg');
-}
-
-.teachers-card-img2 {
-  background-image: url('../img/teachers-card-img2.svg');
-}
-
-.teachers-card-img3 {
-  background-image: url('../img/teachers-card-img3.svg');
-}
-
-.teachers-card-img4 {
-  background-image: url('../img/teachers-card-img4.svg');
-} */
 
 .teachers-card-img {
   margin-bottom: 27px;
   /* width: 100%; */
   /* height: 100%; */
-}
-
-.teachers-card-img1_2,
-.teachers-card-img1_3,
-.teachers-card-img1_4,
-.teachers-card-img2_2,
-.teachers-card-img2_3,
-.teachers-card-img2_4,
-.teachers-card-img3_2,
-.teachers-card-img3_3,
-.teachers-card-img3_4,
-.teachers-card-img4_2,
-.teachers-card-img4_3,
-.teachers-card-img4_4 {
-  display: none;
 }
 
 .teachers__card-title {
